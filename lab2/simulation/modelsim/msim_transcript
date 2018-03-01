@@ -1,0 +1,57 @@
+# do Uni_Shift_Reg_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /opt/altera/12.1/modelsim_ase/linux/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /opt/altera/12.1/modelsim_ase/linux/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {/home/alhaytham/fpgaQuartus/lab2Downloads/Uni_Shift_Reg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Uni_Shift_Reg
+# -- Compiling architecture RTL of Uni_Shift_Reg
+# 
+# vcom -93 -work work {/home/alhaytham/fpgaQuartus/Labs/Lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Uni_Shift_Reg_TB
+# -- Compiling architecture TB of Uni_Shift_Reg_TB
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  Uni_Shift_Reg_TB
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Uni_Shift_Reg_TB 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.uni_shift_reg_tb(tb)
+# Loading ieee.numeric_std(body)
+# Loading work.uni_shift_reg(rtl)
+# ** Warning: (vsim-8684) No drivers exist on out port /uni_shift_reg_tb/Uni_Shift_Reg_inst/LEDG(9 downto 8), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /uni_shift_reg_tb/LEDG(9 downto 8).
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Failure: All the test cases has been completed.
+#    Time: 3800 ns  Iteration: 0  Process: /uni_shift_reg_tb/line__56 File: /home/alhaytham/fpgaQuartus/Labs/Lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd
+# Break in Process line__56 at /home/alhaytham/fpgaQuartus/Labs/Lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd line 95
+# Simulation Breakpoint: Break in Process line__56 at /home/alhaytham/fpgaQuartus/Labs/Lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd line 95
+# MACRO ./Uni_Shift_Reg_run_msim_rtl_vhdl.do PAUSED at line 17

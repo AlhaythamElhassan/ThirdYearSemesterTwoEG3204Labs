@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/alhaytham/fpgaQuartus/Labs/lab3/simulation/modelsim
+Ehalfadder
+Z1 w1517495024
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 d/home/alhaytham/fpgaQuartus/Labs/lab3/simulation/modelsim
+Z8 8/home/alhaytham/fpgaQuartus/Labs/lab3/HalfAdder.vhd
+Z9 F/home/alhaytham/fpgaQuartus/Labs/lab3/HalfAdder.vhd
+l0
+L6
+Ve@K?[K5nH`>@lFDh230NL0
+Z10 OV;C;10.1b;51
+31
+Z11 !s108 1517495123.234275
+Z12 !s90 -reportprogress|300|-93|-work|work|/home/alhaytham/fpgaQuartus/Labs/lab3/HalfAdder.vhd|
+Z13 !s107 /home/alhaytham/fpgaQuartus/Labs/lab3/HalfAdder.vhd|
+Z14 o-93 -work work -O0
+Z15 tExplicit 1
+!s100 SXTVF31FeB;LXgL]HUSoW0
+!i10b 1
+Adataflow
+R2
+R3
+R4
+R5
+R6
+DEx4 work 9 halfadder 0 22 e@K?[K5nH`>@lFDh230NL0
+l14
+L13
+V<e>CQNZ;5k_Q;m]WjU<X<1
+R10
+31
+R11
+R12
+R13
+R14
+R15
+!s100 Q0o<E_fgi=RhLRVH7FIbi2
+!i10b 1
+Ehalfadder_tb
+Z16 w1517493958
+R5
+R6
+R7
+Z17 8/home/alhaytham/fpgaQuartus/Labs/lab3/../../lab3Downloads/HalfAdder_TB.vhd
+Z18 F/home/alhaytham/fpgaQuartus/Labs/lab3/../../lab3Downloads/HalfAdder_TB.vhd
+l0
+L13
+VicM:03TSAHmOoD^OV3YNn2
+!s100 CiaWZ2zEanT<mT1:RES0>0
+R10
+31
+!i10b 1
+Z19 !s108 1517495123.255771
+Z20 !s90 -reportprogress|300|-93|-work|work|/home/alhaytham/fpgaQuartus/Labs/lab3/../../lab3Downloads/HalfAdder_TB.vhd|
+Z21 !s107 /home/alhaytham/fpgaQuartus/Labs/lab3/../../lab3Downloads/HalfAdder_TB.vhd|
+R14
+R15
+Atb
+R5
+R6
+DEx4 work 12 halfadder_tb 0 22 icM:03TSAHmOoD^OV3YNn2
+l36
+L17
+VaAl=c6VO]<;C;DKInWNCB0
+!s100 _g=8C05Cmh5Pk84UHnfKB3
+R10
+31
+!i10b 1
+R19
+R20
+R21
+R14
+R15

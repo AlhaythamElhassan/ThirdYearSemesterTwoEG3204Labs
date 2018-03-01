@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, /home/alhaytham/fpgaQuartus/Labs/lab3/HalfAdder.vhd
+source_file = 1, /home/alhaytham/fpgaQuartus/Labs/lab3/db/HalfAdder.cbx.xml
+source_file = 1, /opt/altera/12.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /opt/altera/12.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /opt/altera/12.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /opt/altera/12.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = HalfAdder
+instance = comp, \sum~output\, sum~output, HalfAdder, 1
+instance = comp, \cout~output\, cout~output, HalfAdder, 1
+instance = comp, \in1~input\, in1~input, HalfAdder, 1
+instance = comp, \in2~input\, in2~input, HalfAdder, 1
+instance = comp, \sum~0\, sum~0, HalfAdder, 1
+instance = comp, \cout~0\, cout~0, HalfAdder, 1

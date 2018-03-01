@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Feb  1 15:12:56 2018
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Web Edition
+Revision Name : Uni_Shift_Reg
+Top-level Entity Name : Uni_Shift_Reg
+Family : Cyclone III
+Device : EP3C16F484C6
+Timing Models : Final
+Total logic elements : 72 / 15,408 ( < 1 % )
+    Total combinational functions : 71 / 15,408 ( < 1 % )
+    Dedicated logic registers : 41 / 15,408 ( < 1 % )
+Total registers : 41
+Total pins : 24 / 347 ( 7 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
