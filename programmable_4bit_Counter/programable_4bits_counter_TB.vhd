@@ -1,6 +1,6 @@
 LIBRARY ieee  ; 
 LIBRARY std  ; 
-
+ 
 USE ieee.std_logic_1164.all  ; 
 USE ieee.std_logic_textio.all  ; 
 USE ieee.STD_LOGIC_UNSIGNED.all  ; 
@@ -9,7 +9,7 @@ USE std.textio.all  ;
 
 USE work.random_generators.all  ; 
 
-ENTITY \programabl_4bits_counter_TB.vhd\  IS 
+ENTITY \programable_4bits_counter_TB.vhd\  IS 
 END ; 
  
 ARCHITECTURE \programable_4bits_counter_TB.vhd_arch\   OF \programable_4bits_counter_TB.vhd\   IS
