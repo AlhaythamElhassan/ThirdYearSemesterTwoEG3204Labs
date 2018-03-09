@@ -12,7 +12,7 @@ USE work.random_generators.all  ;
 ENTITY \programabl_4bits_counter_TB.vhd\  IS 
 END ; 
  
-ARCHITECTURE \programabl_4bits_counter_TB.vhd_arch\   OF \programabl_4bits_counter_TB.vhd\   IS
+ARCHITECTURE \programable_4bits_counter_TB.vhd_arch\   OF \programable_4bits_counter_TB.vhd\   IS
   SIGNAL counter   :  std_logic_vector (3 downto 0)  ; 
   SIGNAL mod_value   :  std_logic_vector (3 downto 0)  ; 
   SIGNAL clock   :  STD_LOGIC  ; 
