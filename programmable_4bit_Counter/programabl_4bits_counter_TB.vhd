@@ -1,11 +1,14 @@
 LIBRARY ieee  ; 
 LIBRARY std  ; 
+
 USE ieee.std_logic_1164.all  ; 
 USE ieee.std_logic_textio.all  ; 
 USE ieee.STD_LOGIC_UNSIGNED.all  ; 
 USE ieee.std_logic_unsigned.all  ; 
 USE std.textio.all  ; 
+
 USE work.random_generators.all  ; 
+
 ENTITY \programabl_4bits_counter_TB.vhd\  IS 
 END ; 
  
