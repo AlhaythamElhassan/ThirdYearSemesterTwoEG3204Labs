@@ -2,7 +2,7 @@ m255
 K3
 13
 cModel Technology
-Z0 d/home/alhaytham/fpgaQuartus/Labs/Lab2/simulation/modelsim
+Z0 d/media/alhaytham/New Volume/ThirdYear/semester2/EG3204/labsAndAssignments/lab2/simulation/modelsim
 Euni_shift_reg
 Z1 w1517497962
 Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
@@ -10,17 +10,17 @@ Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
 Z4 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
 Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z7 d/home/alhaytham/fpgaQuartus/Labs/Lab2/simulation/modelsim
-Z8 8/home/alhaytham/fpgaQuartus/lab2Downloads/Uni_Shift_Reg.vhd
-Z9 F/home/alhaytham/fpgaQuartus/lab2Downloads/Uni_Shift_Reg.vhd
+Z7 d/media/alhaytham/New Volume/ThirdYear/semester2/EG3204/labsAndAssignments/lab2/simulation/modelsim
+Z8 8/media/alhaytham/New Volume/ThirdYear/semester2/EG3204/lab2Downloads/Uni_Shift_Reg.vhd
+Z9 F/media/alhaytham/New Volume/ThirdYear/semester2/EG3204/lab2Downloads/Uni_Shift_Reg.vhd
 l0
 L15
 Vk?6iBL<XEJzE7RE[j;><73
 Z10 OV;C;10.1b;51
 31
-Z11 !s108 1519857803.075910
-Z12 !s90 -reportprogress|300|-93|-work|work|/home/alhaytham/fpgaQuartus/lab2Downloads/Uni_Shift_Reg.vhd|
-Z13 !s107 /home/alhaytham/fpgaQuartus/lab2Downloads/Uni_Shift_Reg.vhd|
+Z11 !s108 1520723697.984575
+Z12 !s90 -reportprogress|300|-93|-work|work|/media/alhaytham/New Volume/ThirdYear/semester2/EG3204/lab2Downloads/Uni_Shift_Reg.vhd|
+Z13 !s107 /media/alhaytham/New Volume/ThirdYear/semester2/EG3204/lab2Downloads/Uni_Shift_Reg.vhd|
 Z14 o-93 -work work -O0
 Z15 tExplicit 1
 !s100 3g_XCnb==cYE?`j_f^1@L0
@@ -51,8 +51,8 @@ R4
 R5
 R6
 R7
-Z17 8/home/alhaytham/fpgaQuartus/Labs/Lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd
-Z18 F/home/alhaytham/fpgaQuartus/Labs/Lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd
+Z17 8/media/alhaytham/New Volume/ThirdYear/semester2/EG3204/labsAndAssignments/lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd
+Z18 F/media/alhaytham/New Volume/ThirdYear/semester2/EG3204/labsAndAssignments/lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd
 l0
 L14
 VkQ6;TNn[OkW;[m_EO6F[P2
@@ -60,9 +60,9 @@ VkQ6;TNn[OkW;[m_EO6F[P2
 R10
 31
 !i10b 1
-Z19 !s108 1519857803.108613
-Z20 !s90 -reportprogress|300|-93|-work|work|/home/alhaytham/fpgaQuartus/Labs/Lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd|
-Z21 !s107 /home/alhaytham/fpgaQuartus/Labs/Lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd|
+Z19 !s108 1520723698.023897
+Z20 !s90 -reportprogress|300|-93|-work|work|/media/alhaytham/New Volume/ThirdYear/semester2/EG3204/labsAndAssignments/lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd|
+Z21 !s107 /media/alhaytham/New Volume/ThirdYear/semester2/EG3204/labsAndAssignments/lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd|
 R14
 R15
 Atb
