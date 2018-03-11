@@ -9,10 +9,10 @@ USE std.textio.all  ;
 
 USE work.random_generators.all  ; 
 
-ENTITY \programable_4bits_counter_TB.vhd\  IS 
+ENTITY programable_4bits_counter_TB  IS 
 END ; 
  
-ARCHITECTURE \programable_4bits_counter_TB.vhd_arch\   OF \programable_4bits_counter_TB.vhd\   IS
+ARCHITECTURE behavioural OF programable_4bits_counter_TB IS
   SIGNAL counter   :  std_logic_vector (3 downto 0)  ; 
   SIGNAL mod_value   :  std_logic_vector (3 downto 0)  ; 
   SIGNAL clock   :  STD_LOGIC  ; 
