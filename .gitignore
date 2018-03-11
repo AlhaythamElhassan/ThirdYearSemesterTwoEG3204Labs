@@ -10,7 +10,6 @@ programmable_4bit_Counter/programabl_4bits_counter.flow.rpt
 programmable_4bit_Counter/programabl_4bits_counter.map.rpt
 programmable_4bit_Counter/programabl_4bits_counter.map.summary
 programmable_4bit_Counter/programabl_4bits_counter_TB.vhd.bak
-programmable_4bit_Counter/programable_4bits_counter.qsf
 programmable_4bit_Counter/programable_4bits_counter_TB.vhd.bak
 programmable_4bit_Counter/programable_4bits_counter.flow.rpt
 programmable_4bit_Counter/programable_4bits_counter.map.rpt
@@ -19,3 +18,4 @@ programmable_4bit_Counter/programable_4bits_counter_nativelink_simulation.rpt
 .gitignore.bak
 programmable_4bit_Counter/programable_4bits_counter.done
 programmable_4bit_Counter/programable_4bits_counter.qws
+programmable_4bit_Counter/TB/tcl/compile_programable_4bits_counter_TB.tcl.bak
