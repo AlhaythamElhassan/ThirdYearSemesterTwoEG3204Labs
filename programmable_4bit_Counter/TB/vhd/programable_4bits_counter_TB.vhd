@@ -271,99 +271,102 @@ BEGIN
 -- Start Time = 620 ns, End Time = 640 ns, Period = 20 ns
   Process
 	Begin
+	wait for 1 ns; 
 	 if counter  /= ("0000"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 50 ns ;
+		report " test case failed counter is not 0" severity error; end if;
+	wait for 30 ns ;
 	 if counter  /= ("0001"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed is not 1" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("0010"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed counter is not 2" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("0011"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed couter is not 3" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("0100"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed couter is not 4" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("0101"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed couter is not 5" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("0110"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed couter is not 6" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("0111"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed couter is not 7" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("1000"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed couter is not 8" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("1001"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed couter is not 9" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("1010"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed couter is not 10" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("1011"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed couter is not 11" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("1100"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed couter is not 12" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("0000"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed couter is not 0" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("0001"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("0000"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("1111"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("1110"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("1101"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("1100"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("1011"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("1010"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("1001"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("1000"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("0111"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("0110"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("0101"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("0100"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 20 ns ;
-	 if counter  /= ("0011"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed couter is not 1" severity error; end if;
 	wait for 20 ns ;
 	 if counter  /= ("0010"  ) then 
-		report " test case failed" severity error; end if;
-	wait for 10 ns ;
-	 if counter  /= ("1100"  ) then 
-		report " test case failed" severity error; end if;
+		report " test case failed couter is not 2" severity error; end if;
 	wait for 20 ns ;
+	 if counter  /= ("0001"  ) then 
+		report " test case failed couter is not 1" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("0000"  ) then 
+		report " test case failed couter is not 0" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("1100"  ) then 
+		report " test case failed couter is not 12" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("1011"  ) then 
+		report " test case failed couter is not 11" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("1010"  ) then 
+		report " test case failed couter is not 10" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("1001"  ) then 
+		report " test case failed couter is not 9" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("1000"  ) then 
+		report " test case failed couter is not 8" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("0111"  ) then 
+		report " test case failed couter is not 7" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("0110"  ) then 
+		report " test case failed couter is not 6" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("0101"  ) then 
+		report " test case failed couter is not 5" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("0100"  ) then 
+		report " test case failed couter is not 4" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("0011"  ) then 
+		report " test case failed couter is not 3" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("0010"  ) then 
+		report " test case failed couter is not 2" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("0001"  ) then 
+		report " test case failed couter is not 1" severity error; end if;
+	wait for 20 ns ;
+	 if counter  /= ("0000"  ) then 
+		report " test case failed couter is not 0" severity error; end if;
+	wait for 20 ns ;
+	if counter  /= ("0000"  ) then 
+		report " test case failed couter is not 0" severity error; end if;
 -- dumped values till 640 ns
 	wait;
  End Process;
