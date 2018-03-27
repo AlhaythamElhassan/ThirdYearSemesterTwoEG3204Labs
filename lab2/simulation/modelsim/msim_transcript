@@ -4,12 +4,9 @@
 # }
 # vlib rtl_work
 # vmap work rtl_work
-# Copying /opt/altera/12.1/modelsim_ase/linux/../modelsim.ini to modelsim.ini
-# Modifying modelsim.ini
-# ** Warning: Copied /opt/altera/12.1/modelsim_ase/linux/../modelsim.ini to modelsim.ini.
-#          Updated modelsim.ini.
+# Modifying /opt/altera/12.1/modelsim_ase/linux/../modelsim.ini
 # 
-# vcom -93 -work work {/home/alhaytham/fpgaQuartus/lab2Downloads/Uni_Shift_Reg.vhd}
+# vcom -93 -work work {/media/alhaytham/New Volume/ThirdYear/semester2/EG3204/lab2Downloads/Uni_Shift_Reg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -20,7 +17,7 @@
 # -- Compiling entity Uni_Shift_Reg
 # -- Compiling architecture RTL of Uni_Shift_Reg
 # 
-# vcom -93 -work work {/home/alhaytham/fpgaQuartus/Labs/Lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd}
+# vcom -93 -work work {/media/alhaytham/New Volume/ThirdYear/semester2/EG3204/labsAndAssignments/lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -51,7 +48,8 @@
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # ** Failure: All the test cases has been completed.
-#    Time: 3800 ns  Iteration: 0  Process: /uni_shift_reg_tb/line__56 File: /home/alhaytham/fpgaQuartus/Labs/Lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd
-# Break in Process line__56 at /home/alhaytham/fpgaQuartus/Labs/Lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd line 95
-# Simulation Breakpoint: Break in Process line__56 at /home/alhaytham/fpgaQuartus/Labs/Lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd line 95
+#    Time: 3800 ns  Iteration: 0  Process: /uni_shift_reg_tb/line__56 File: /media/alhaytham/New Volume/ThirdYear/semester2/EG3204/labsAndAssignments/lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd
+# Break in Process line__56 at /media/alhaytham/New Volume/ThirdYear/semester2/EG3204/labsAndAssignments/lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd line 95
+# Simulation Breakpoint: Break in Process line__56 at /media/alhaytham/New Volume/ThirdYear/semester2/EG3204/labsAndAssignments/lab2/../../lab2Downloads/Uni_Shift_Reg_TB.vhd line 95
 # MACRO ./Uni_Shift_Reg_run_msim_rtl_vhdl.do PAUSED at line 17
+quit
